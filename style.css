@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-image: url(newYear.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Love Ya Like A Sister', cursive;
+    min-height: 100vh;
+    max-width: 100%;
+    margin: 0;
+
+}
+
+
+
+h1 {
+    color: #ffff;
+    font-size: 5rem;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.countdownContainer {
+    display: flex;
+    max-width: 100%;
+}
+
+.bigText {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 2rem 2rem 2rem 5rem;
+}
+
+.countNumber {
+    text-align: center;
+}
+
+.countNumber span {
+    color: #ffff;
+    font-size: 2rem;
+
+}
